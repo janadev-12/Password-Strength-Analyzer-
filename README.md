@@ -64,6 +64,8 @@ Installation Guide
 git clone <repository-url>
 cd password_strength_analyzer
 
+
+
 Commands to run 
 password check cmds
 
