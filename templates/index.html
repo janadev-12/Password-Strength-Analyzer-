@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>🔐 Password Strength Checker</h1>
+            <p>Analyze your password security instantly.</p>
+
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Enter password">
+                <button type="button" class="toggle-password" onclick="togglePassword()">👁️</button>
+            </div>
+
+            <button onclick="checkPassword()">Check Strength</button>
+
+            <div class="result">
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+
+                <h2 id="strength"></h2>
+                <p id="score"></p>
+                <p id="entropy"></p>
+
+                <ul id="feedback"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
