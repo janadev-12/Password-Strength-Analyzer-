@@ -63,3 +63,21 @@ Installation Guide
 ```bash
 git clone <repository-url>
 cd password_strength_analyzer
+
+Commands to run 
+password check cmds
+
+# Step 1: Project folder open pannu
+cd password_strength_analyzer
+
+# Step 2: Virtual environment create (optional but professional)
+python -m venv venv
+
+# Step 3: Virtual environment activate
+venv\Scripts\activate
+
+# Step 4: Required packages install
+pip install -r requirements.txt
+
+# Step 5: Flask app run
+python app.py
