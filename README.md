@@ -69,7 +69,7 @@ cd password_strength_analyzer
 Commands to run 
 password check cmds
 
-# Step 1: Project folder open pannu
+# Step 1: Project folder open 
 cd password_strength_analyzer
 
 # Step 2: Virtual environment create (optional but professional)
