@@ -56,6 +56,8 @@ Security Logic:
 - Common Password Detection
 
 ---
+AUTHOR
+     R.JANAVANTH
 
 Installation Guide
 
